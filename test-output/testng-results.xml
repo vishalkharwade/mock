@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14642" started-at="2022-11-19T09:23:42 IST" finished-at="2022-11-19T09:23:56 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14642" started-at="2022-11-19T09:23:42 IST" finished-at="2022-11-19T09:23:56 IST">
+      <class name="Module1_Login_Test.UpstoxLoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Module1_Login_Test.UpstoxLoginTest@38bc8ab5]" name="openBrowser" is-config="true" duration-ms="4390" started-at="2022-11-19T09:23:42 IST" finished-at="2022-11-19T09:23:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:Module1_Login_Test.UpstoxLoginTest@38bc8ab5]" name="loginToApp" is-config="true" duration-ms="9728" started-at="2022-11-19T09:23:46 IST" finished-at="2022-11-19T09:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="verifyUserID()[pri:0, instance:Module1_Login_Test.UpstoxLoginTest@38bc8ab5]" name="verifyUserID" duration-ms="501" started-at="2022-11-19T09:23:56 IST" finished-at="2022-11-19T09:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserID -->
+        <test-method status="PASS" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_Login_Test.UpstoxLoginTest@38bc8ab5]" name="logoutFromApp" is-config="true" duration-ms="2" started-at="2022-11-19T09:23:56 IST" finished-at="2022-11-19T09:23:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserID status=SUCCESS method=UpstoxLoginTest.verifyUserID()[pri:0, instance:Module1_Login_Test.UpstoxLoginTest@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Module1_Login_Test.UpstoxLoginTest@38bc8ab5]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2022-11-19T09:23:56 IST" finished-at="2022-11-19T09:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Module1_Login_Test.UpstoxLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
